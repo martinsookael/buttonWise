@@ -1,0 +1,125 @@
+
+p {
+  margin-bottom: 10px;
+}
+
+html, head, body {
+  height: 100%;
+}
+
+#loading {
+  width: 100%;
+  text-align: center;
+  margin-top: 150px;
+}
+
+#app {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+}
+
+#front {
+  width: 100%;
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px #eee solid;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+#header {
+  height: 50px;
+  background-color: #22b672;
+  color: #fff;
+  padding: 15px 10px 15px 10px;
+  text-align: center;
+}
+
+#button {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  background-color: #22b672;
+  position: absolute;
+
+  bottom: 130px;
+  right: 50px;
+
+  box-shadow: -3px 3px 5px #888888;
+  z-index: 0;
+}
+
+#menu1 {
+  top: inherit;
+  color: #fff; position: absolute;
+  /*
+  bottom: 207px; right: 118px;
+  */
+  bottom: 178px;
+  right: 95px;
+}
+
+#menu2 {
+  top: inherit;
+  color: #fff;
+  position: absolute;
+  /*
+  bottom: 150px;
+  right: 150px;
+  */
+  bottom: 150px;
+  right: 100px;
+  opacity: 0;
+}
+
+#menu3 {
+  top: inherit;
+  color: #fff; position: absolute;
+  /*
+  bottom: 236px;
+  */
+  bottom: 190px;
+  right: 68px;
+}
+
+#trigger {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  /*
+  00ae6d
+  */
+  background-color: #22b672;
+  position: absolute;
+  bottom: 130px;
+  right: 50px;
+  z-index: 1;
+  text-align: center;
+
+  transform: rotate(0deg);
+
+  background-image: url(/img/green2.png);
+  background-size: 0px 0px;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+#preFooter {
+  position: absolute;
+  bottom: 50px;
+  background-color: #fff;
+  height: 60px;
+  width: 100%;
+  border: 1px solid #999;
+}
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  background-color: #000;
+  height: 50px;
+  width: 100%;
+}
