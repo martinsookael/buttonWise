@@ -2,7 +2,7 @@ ButtonWise
 ===================
 
 A hackatlon project to create animation similar to this:  
-![Original image](https://raw.github.com/martinsookael/buttonWise/master/public/images/oringial_animation.gif)
+![Original image](https://github.com/martinsookael/buttonWise/blob/master/img/oringial_animation.gif?raw=true)
 
 In case it's not clear, on click:  
 1. A little droplet starts from the middle of the button.  
